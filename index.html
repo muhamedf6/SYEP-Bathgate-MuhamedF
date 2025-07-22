@@ -5,15 +5,37 @@
     <meta charset= "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
 <title>Muhamed's Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 <link href="style.css" rel="stylesheet">
 </head>
 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Muhamed</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="#about">About Me</a>
+        <a class="nav-link" href="#">Projects</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
 <!--This is where most of my code will live -->
 <body>
-    <section id="home"  class="hero">
-    <img src="#" alt="Profile Picture">
+    <section id="home"  class="hero container-fluid d-flex flex-lg-row flex-column align-items-center justify-content-center">
+    <img src="tower.jpg" alt="Profile Picture" width="400px" height="400px"/>
+    <div class="hero-text">
     <h1>Hi, i am <span class="accent">Muhamed Fisiru</span></h1>
     <p> I'm a high school student learning web developement </p>
+    </div>
     </section>
 
 <section id="about" class="section">
@@ -29,5 +51,12 @@
     <div>JavaScript</div>
     </div>
 </section>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+
+
 </html>
 
