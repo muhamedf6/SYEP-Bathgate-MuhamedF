@@ -10,7 +10,7 @@ const reviews = [
 {
     id: 2,
     name: 'Anna Johnson',
-    job: 'Web Designer'
+    job: 'Web Designer',
     img: '#',
     text: 'Lorem ipsum'
 },
@@ -20,9 +20,9 @@ const reviews = [
     name: 'Peter Jones',
     job: 'Intern',
     img: '#',
-    text:
-}
-],
+    text: 'Lorem ipsum'
+},
+]
 
 //select items
 const img = document.getElementById('person-img');
@@ -100,7 +100,7 @@ function introduction(name, age){
 
 introduction("Muhamed", 14)
 
-cost hour = new Date().getHours();
+const hour = new Date().getHours();
 let greeting = "";
 
 if (hour<12){
