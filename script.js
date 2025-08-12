@@ -1,18 +1,18 @@
 const reviews = [
 {
     id: 1,
-    name: 'Susan Smith',
-    job: 'Web Developer',
+    name: 'Alimeen S',
+    job: 'Student',
     img: '#',
-    text: 'Lorem ipsum'
+    text: 'Educated and hardworking'
 },
 
 {
     id: 2,
-    name: 'Anna Johnson',
-    job: 'Web Designer',
+    name: 'Cheick T',
+    job: 'Student',
     img: '#',
-    text: 'Lorem ipsum'
+    text: ''
 },
 
 {
