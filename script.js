@@ -1,10 +1,10 @@
 const reviews = [
 {
     id: 1,
-    name: 'Alimeen S',
-    job: 'Student',
-    img: '#',
-    text: 'Educated and hardworking'
+    name: 'Michelle Stover',
+    job: 'Teacher',
+    img: 'https://images.squarespace-cdn.com/content/v1/5bec73fa3917eec31d42357d/1594751645712-RPI9ZE85OO1L0OM51TA0/Stover.png?format=750w',
+    text: 'Ive had the pleasure of watching Muhamed grow tremendously from 8th to 9th grade. His maturity, confidence, and commitment to learning have really stood out this year. Muhamed has become more focused, engaged in class discussions, and consistently puts in the effort to improve. Its been inspiring to see how much hes developed both academically and personally, and Im excited to see where his continued growth will take him.'
 },
 
 {
